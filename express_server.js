@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, './')));
 
 app.get('/', (req, res) => {
-  res.send('hello');
+  res.send("hello but i'm also testing nodemon");
 });
 
 // Needed the path module to serve a static html file like nginx
